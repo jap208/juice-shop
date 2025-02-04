@@ -1,0 +1,9 @@
+name: Snyk Code Analysis
+
+on:
+  push:
+    branches:
+      - main  # Puedes usar cualquier otra rama
+  pull_request:
+    branches:
+      - main
